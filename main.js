@@ -1,4 +1,4 @@
-const worker = new Worker("worker.js");
+const worker = new Worker("./worker.js");
 
 let t = 0;
 const pel = document.getElementById("time");
